@@ -23,11 +23,11 @@ A step-by-step guide on how to install this project.
 
 ##Functional Assumptions##
 Assumptions on the Data being Aggregated:
-The fields - CaseID, CustomerID, Provider, Error_code, Ticket_creation_date and Product_name are Immutable
-The fields - Status and Last_modified_date can be updated
-The caseID is generated independently by each CRM system and is unique per CRM system
-The customerID, Provider and Product name are identical across all CRM systems
-If a case is added with the same ID as n existing case in the repository, it will overwrite the existing case with the new one.
+1. The fields - CaseID, CustomerID, Provider, Error_code, Ticket_creation_date and Product_name are Immutable
+2. The fields - Status and Last_modified_date can be updated
+3. The caseID is generated independently by each CRM system and is unique per CRM system
+4. he customerID, Provider and Product name are identical across all CRM systems
+5. If a case is added with the same ID as n existing case in the repository, it will overwrite the existing case with the new one.
 
 ##Technical Assumptions##
 
