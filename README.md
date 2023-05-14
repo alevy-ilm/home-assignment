@@ -15,8 +15,12 @@ A brief description of what this project does.
 
 A step-by-step guide on how to install this project.
 
-1. #Building the project:# In the project root run the following command: #mvn clean package spring-boot:repackage#
-2. #Running the project:# Switch to the new created #target# folder and run: #java -jar aggregation-0.0.1-SNAPSHOT.jar#
+1. Open your terminal or Git Bash (on Windows) and navigate to the directory where you want to clone the repository.
+2. Open your terminal or Git Bash (on Windows) and navigate to the directory where you want to clone the repository.
+2. Run the following command: # git clone https://github.com/alevy-ilm/home-assignment.git #
+
+3. # Building the project: # In the project root run the following command: # mvn clean package spring-boot:repackage #
+4. # Running the project :# Switch to the new created #target# folder and run: # java -jar aggregation-0.0.1-SNAPSHOT.jar #
 
 ##Functional Assumptions##
 Assumptions on the Data being Aggregated:
