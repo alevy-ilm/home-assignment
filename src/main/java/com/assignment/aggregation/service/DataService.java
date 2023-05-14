@@ -67,7 +67,7 @@ public class DataService {
         caseService.addCases(crmCaseList);
     }
 
-    private int numberOfObjects = 10;
+    private int numberOfObjects = 1000;
 
     public void setNumberOfObjects(int numberOfObjects) {
         this.numberOfObjects = numberOfObjects;
